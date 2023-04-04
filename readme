@@ -1,0 +1,40 @@
+'''
+Descripttion: THIS FILE IS PART OF Digital China PROJECT
+version: 1.4
+Author: Zhang BoQian (Daniel)
+Date: 2023-03-23 9:16:50
+LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+LastEditTime: 2023-04-04 16:02:36
+
+# v1.1 版本说明
+# 更新了IP地址获取错误问题
+# 调整了生成的表格列宽
+# 根据提取设备名称生成sheet页
+# V1.2
+# 增加收集信息失败日志记录
+# 修复失败设备造成无法继续执行程序的问题
+# V1.3 
+# 更新表达式满足更多的设备信息位置
+# v1.4
+# 更新数据生成文件命名规则
+# 更新文件保存位置
+# 更新每个目录一个数据结果文件
+'''
+
+设备配置保存格式
+
+C:\ZBQ\config\Office-1F
+C:\ZBQ\config\Office-2F
+
+读取文件格式
+
+2023-03-24_1.1.1.1_devicename 
+2023-03-24_1.1.1.2_2950-24
+
+读取目录
+
+C:\ZBQ\config
+
+根据目录输出分析结果，并记录失败设备
+Office-1F_device_info
+Office-2F_device_info
