@@ -1,40 +1,76 @@
-'''
-Descripttion: THIS FILE IS PART OF Digital China PROJECT
-version: 1.4
+Here is the English translation of the text, using the same font size:
+
+Description: THIS FILE IS PART OF Digital China PROJECT
+Version: 1.4
 Author: Zhang BoQian (Daniel)
 Date: 2023-03-23 9:16:50
-LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
-LastEditTime: 2023-04-04 16:02:36
+LastEditors: Daniel
+LastEditTime: 2023-04-04 16:21:36
 
-# v1.1 °æ±¾ËµÃ÷
-# ¸üĞÂÁËIPµØÖ·»ñÈ¡´íÎóÎÊÌâ
-# µ÷ÕûÁËÉú³ÉµÄ±í¸ñÁĞ¿í
-# ¸ù¾İÌáÈ¡Éè±¸Ãû³ÆÉú³ÉsheetÒ³
-# V1.2
-# Ôö¼ÓÊÕ¼¯ĞÅÏ¢Ê§°ÜÈÕÖ¾¼ÇÂ¼
-# ĞŞ¸´Ê§°ÜÉè±¸Ôì³ÉÎŞ·¨¼ÌĞøÖ´ĞĞ³ÌĞòµÄÎÊÌâ
-# V1.3 
-# ¸üĞÂ±í´ïÊ½Âú×ã¸ü¶àµÄÉè±¸ĞÅÏ¢Î»ÖÃ
-# v1.4
-# ¸üĞÂÊı¾İÉú³ÉÎÄ¼şÃüÃû¹æÔò
-# ¸üĞÂÎÄ¼ş±£´æÎ»ÖÃ
-# ¸üĞÂÃ¿¸öÄ¿Â¼Ò»¸öÊı¾İ½á¹ûÎÄ¼ş
-'''
+Version Information
+Version 1.1 
+Fixed issue with incorrect IP address acquisition
+Adjusted generated table column width
+Created sheet page based on extracted device name
+Version 1.2
+Added log recording for failed information collection
+Fixed problem of program being unable to continue due to failed devices
+Version 1.3
+Updated expression to match more device information positions
+Version 1.4
+Updated data file naming convention
+Updated file save location
+Generated one data result file for each directory
 
-Éè±¸ÅäÖÃ±£´æ¸ñÊ½
 
+Device Configuration Storage Format
 C:\ZBQ\config\Office-1F
 C:\ZBQ\config\Office-2F
 
-¶ÁÈ¡ÎÄ¼ş¸ñÊ½
-
-2023-03-24_1.1.1.1_devicename 
+File Reading Format
+2023-03-24_1.1.1.1_devicename
 2023-03-24_1.1.1.2_2950-24
 
-¶ÁÈ¡Ä¿Â¼
-
+Directory for Reading
 C:\ZBQ\config
 
-¸ù¾İÄ¿Â¼Êä³ö·ÖÎö½á¹û£¬²¢¼ÇÂ¼Ê§°ÜÉè±¸
-Office-1F_device_info
-Office-2F_device_info
+Output analysis results based on the directory, and record failed devices
+C:\ZBQ\config\Office-1F_device_info
+C:\ZBQ\config\Office-2F_device_info
+
+æè¿°ï¼šæ­¤æ–‡ä»¶æ˜¯Digital Chinaé¡¹ç›®çš„ä¸€éƒ¨åˆ†
+ç‰ˆæœ¬ï¼š1.4
+ä½œè€…ï¼šå¼ å¤§ç‰›
+æ—¥æœŸï¼š2023å¹´3æœˆ23æ—¥9:16:50
+æœ€åç¼–è¾‘è€…ï¼šå¼ å¤§ç‰›
+æœ€åç¼–è¾‘æ—¶é—´ï¼š2023å¹´4æœˆ4æ—¥16:21:36
+
+ç‰ˆæœ¬ä¿¡æ¯
+ç‰ˆæœ¬1.1
+ä¿®å¤äº†è·å–é”™è¯¯IPåœ°å€çš„é—®é¢˜
+è°ƒæ•´äº†ç”Ÿæˆçš„è¡¨æ ¼åˆ—å®½
+æ ¹æ®æå–çš„è®¾å¤‡åç§°åˆ›å»ºè¡¨æ ¼é¡µ
+ç‰ˆæœ¬1.2
+æ·»åŠ äº†è®°å½•å¤±è´¥ä¿¡æ¯æ”¶é›†çš„æ—¥å¿—è®°å½•
+ä¿®å¤äº†ç”±äºè®¾å¤‡å¤±è´¥å¯¼è‡´ç¨‹åºæ— æ³•ç»§ç»­æ‰§è¡Œçš„é—®é¢˜
+ç‰ˆæœ¬1.3
+æ›´æ–°è¡¨è¾¾å¼ä»¥åŒ¹é…æ›´å¤šè®¾å¤‡ä¿¡æ¯ä½ç½®
+ç‰ˆæœ¬1.4
+æ›´æ–°æ•°æ®æ–‡ä»¶å‘½åè§„èŒƒ
+æ›´æ–°æ–‡ä»¶ä¿å­˜ä½ç½®
+æ¯ä¸ªç›®å½•ç”Ÿæˆä¸€ä¸ªæ•°æ®ç»“æœæ–‡ä»¶
+
+è®¾å¤‡é…ç½®å­˜å‚¨æ ¼å¼
+Cï¼š\ZBQ\config\Office-1F
+Cï¼š\ZBQ\config\Office-2F
+
+æ–‡ä»¶è¯»å–æ ¼å¼
+2023-03-24_1.1.1.1_devicename
+2023-03-24_1.1.1.2_2950-24
+
+è¯»å–ç›®å½•
+Cï¼š\ZBQ\config
+
+æ ¹æ®ç›®å½•è¾“å‡ºåˆ†æç»“æœï¼Œå¹¶è®°å½•å¤±è´¥è®¾å¤‡
+Cï¼š\ZBQ\config\Office-1F_device_info
+Cï¼š\ZBQ\config\Office-2F_device_info
