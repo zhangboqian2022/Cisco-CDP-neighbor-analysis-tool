@@ -18,6 +18,19 @@ LastEditTime: 2023-04-04 16:02:36
 # 更新数据生成文件命名规则
 # 更新文件保存位置
 # 更新每个目录一个数据结果文件
+# Version 1.1 
+# Fixed issue with incorrect IP address acquisition
+# Adjusted generated table column width
+# Created sheet page based on extracted device name
+# Version 1.2
+# Added log recording for failed information collection
+# Fixed problem of program being unable to continue due to failed devices
+# Version 1.3
+# Updated expression to match more device information positions
+# Version 1.4
+# Updated data file naming convention
+# Updated file save location
+# Generated one data result file for each directory
 '''
 import os
 import re
